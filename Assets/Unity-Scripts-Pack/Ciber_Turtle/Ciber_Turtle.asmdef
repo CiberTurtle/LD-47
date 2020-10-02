@@ -1,0 +1,15 @@
+{
+    "name": "Ciber_Turtle",
+    "references": [
+        "GUID:2d5c01cc035185b46a550174afcfadd3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
