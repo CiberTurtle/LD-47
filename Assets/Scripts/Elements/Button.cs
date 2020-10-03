@@ -11,6 +11,8 @@ public class Button : MonoBehaviour
 	[SerializeField] Transform tActivationArea;
 	[SerializeField] LayerMask lmPlayer;
 	[SerializeField] LineRenderer lrLine;
+	[SerializeField] Color cOffColor;
+	[SerializeField] Color cOnColor;
 
 	SpriteRenderer sr;
 	IToggleable toggle;
@@ -28,6 +30,9 @@ public class Button : MonoBehaviour
 	void Update()
 	{
 		bool isPressed = Physics2D.OverlapBox(tActivationArea.position, tActivationArea.localScale, 0, lmPlayer);
+
+		lrLine.startColor = isPressed == true ? cOnColor : cOffColor;
+		lrLine.endColor = isPressed == true ? cOnColor : cOffColor;
 
 		if (bInvert)
 		{
