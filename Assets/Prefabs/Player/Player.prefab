@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3588943650876193438}
   - component: {fileID: 3588943650876193439}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3588943651214305791}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Ground Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 3588943651542944506}
   - component: {fileID: 3588943651542944509}
   - component: {fileID: 3588943651542944508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,15 +317,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_PointLightOuterRadius
-      value: 25.25
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_PointLightInnerRadius
-      value: 24.75
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Intensity
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_BlendStyleIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.97834647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605691, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_Name
       value: Sprite Light 2D
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605691, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}

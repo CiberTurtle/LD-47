@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-	public PastPlayer past = new PastPlayer();
+	public Past past = new Past();
 
 	Rigidbody2D rb;
 

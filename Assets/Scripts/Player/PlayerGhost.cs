@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerGhost : MonoBehaviour
 {
-	public PastPlayer past;
+	public Past past;
 
 	public int index = 0;
 
@@ -14,7 +14,7 @@ public class PlayerGhost : MonoBehaviour
 		rb = GetComponent<Rigidbody2D>();
 	}
 
-	public PlayerGhost SetPast(PastPlayer past)
+	public PlayerGhost SetPast(Past past)
 	{
 		this.past = past;
 		return this;

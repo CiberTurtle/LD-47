@@ -7,7 +7,7 @@ public class Game : MonoBehaviour
 {
 	public Player activePlayer;
 	public List<PlayerGhost> ghostPlayers = new List<PlayerGhost>();
-	public List<PastPlayer> pasts = new List<PastPlayer>();
+	public List<Past> pasts = new List<Past>();
 
 	[SerializeField] GameObject pfPlayer;
 	[SerializeField] GameObject pfGhostPlayer;

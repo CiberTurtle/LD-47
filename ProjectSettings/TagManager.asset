@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Past Player
   - Player
   - 
   - 
@@ -36,7 +37,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Editor
   m_SortingLayers:
   - name: Background
     uniqueID: 4136063089
@@ -44,9 +45,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Outline
+    uniqueID: 578620989
+    locked: 0
   - name: Ground
     uniqueID: 3410916191
     locked: 0
   - name: Player
     uniqueID: 2228408907
+    locked: 0
+  - name: Editor
+    uniqueID: 911808277
     locked: 0
