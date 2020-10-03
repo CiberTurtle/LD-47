@@ -26,6 +26,8 @@ public class PlayerGhost : MonoBehaviour
 		{
 			rb.position = past.v2History[index];
 
+			if (index != 0 && past.v2History[index].x != past.v2History[index - 1].x) transform.localScale = new Vector3(past.v2History[index].x > past.v2History[index - 1].x ? 1 : -1, 1, 1);
+
 			index++;
 		}
 	}

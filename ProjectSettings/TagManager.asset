@@ -54,6 +54,9 @@ TagManager:
   - name: Element
     uniqueID: 618806489
     locked: 0
+  - name: Player Ghost
+    uniqueID: 2389911587
+    locked: 0
   - name: Player
     uniqueID: 2228408907
     locked: 0

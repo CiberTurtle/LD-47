@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -13,6 +14,11 @@ public class Game : MonoBehaviour
 	[SerializeField] GameObject pfGhostPlayer;
 	[Space]
 	[SerializeField] Transform tSpawnPoint;
+	[SerializeField] Transform tEndPoint;
+	[SerializeField] float fTimeToExit;
+	[SerializeField] LayerMask lmPlayer;
+
+	float fTimeOnExit;
 
 	void Awake()
 	{
@@ -23,6 +29,9 @@ public class Game : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.Space))
 			Redo();
+
+		if (Physics2D.OverlapBox(tEndPoint.position, tEndPoint.localScale, 0, lmPlayer)) fTimeOnExit += Time.deltaTime; else fTimeOnExit = 0;
+		if (fTimeOnExit > fTimeToExit) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
 	public void Redo()

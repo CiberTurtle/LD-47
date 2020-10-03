@@ -107,7 +107,7 @@ Transform:
   m_GameObject: {fileID: 3588943651214305790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.95, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.85, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 3588943651542944504}
   m_RootOrder: 0
@@ -247,7 +247,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.9, y: 0.9}
   m_EdgeRadius: 0
 --- !u!58 &3588943651542944508
 CircleCollider2D:
@@ -264,7 +264,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.45
 --- !u!1001 &2414390834645566328
 PrefabInstance:
   m_ObjectHideFlags: 0
