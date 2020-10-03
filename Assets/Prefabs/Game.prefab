@@ -5289,8 +5289,8 @@ MonoBehaviour:
   pasts: []
   pfPlayer: {fileID: 3588943651542944511, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
   pfGhostPlayer: {fileID: 9059285355719055923, guid: a12e2ae474dfd4c4ea56250823768e54, type: 3}
-  tSpawnPoint: {fileID: 0}
-  tEndPoint: {fileID: 0}
+  tSpawnPoint: {fileID: 2221113158210987058}
+  tEndPoint: {fileID: 8957477976301917298}
   fTimeToExit: 1
   lmPlayer:
     serializedVersion: 2
