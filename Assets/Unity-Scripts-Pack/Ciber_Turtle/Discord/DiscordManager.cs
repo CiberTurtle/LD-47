@@ -26,18 +26,9 @@ namespace Ciber_Turtle.Discord_
 
 			var activity = new Discord.Activity
 			{
-				State = "Working on a game",
-				Details = "yeah it sucks",
+				State = "Working on a LD47 Game",
+				Details = "Making with Ciber_Turtle and HappyGamer500",
 				Timestamps = { Start = (int)(System.DateTime.UtcNow - new System.DateTime(1970, 1, 1, 0, 0, 0, System.DateTimeKind.Utc)).TotalSeconds, },
-				Party =
-			{
-				Id = "foo partyID",
-				Size =
-				{
-					CurrentSize = 1,
-					MaxSize = 1,
-				},
-			},
 			};
 
 			activityManager.UpdateActivity(activity, (res) =>
