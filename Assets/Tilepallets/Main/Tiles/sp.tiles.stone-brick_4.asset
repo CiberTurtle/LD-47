@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Stone_6
+  m_Name: sp.tiles.stone-brick_4
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 6323242447520240221, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
+  m_Sprite: {fileID: -7966861534435643657, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

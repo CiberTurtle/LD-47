@@ -11,10 +11,12 @@ public class Game : MonoBehaviour
 
 	[SerializeField] GameObject pfPlayer;
 	[SerializeField] GameObject pfGhostPlayer;
+	[Space]
+	[SerializeField] Transform tSpawnPoint;
 
 	void Awake()
 	{
-		activePlayer = Instantiate(pfPlayer).GetComponent<Player>();
+		activePlayer = Instantiate(pfPlayer, tSpawnPoint.position, Quaternion.identity).GetComponent<Player>();
 	}
 
 	void LateUpdate()
@@ -27,10 +29,10 @@ public class Game : MonoBehaviour
 	{
 		pasts.Add(activePlayer.past);
 		Destroy(activePlayer.gameObject);
-		activePlayer = Instantiate(pfPlayer).GetComponent<Player>();
+		activePlayer = Instantiate(pfPlayer, tSpawnPoint.position, Quaternion.identity).GetComponent<Player>();
 
 		ghostPlayers.ForEach(x => Destroy(x.gameObject));
 		ghostPlayers = new List<PlayerGhost>();
-		pasts.ForEach(x => ghostPlayers.Add(Instantiate(pfGhostPlayer).GetComponent<PlayerGhost>().SetPast(x)));
+		pasts.ForEach(x => ghostPlayers.Add(Instantiate(pfGhostPlayer, tSpawnPoint.position, Quaternion.identity).GetComponent<PlayerGhost>().SetPast(x)));
 	}
 }

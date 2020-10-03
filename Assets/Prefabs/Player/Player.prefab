@@ -71,8 +71,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8855996269895051058, guid: b361b2f5604bec445aceee357e66d860, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -2058059831014946780, guid: b361b2f5604bec445aceee357e66d860, type: 3}
+  m_Color: {r: 0.17999998, g: 0.53999996, b: 0.9, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -147,6 +147,7 @@ Transform:
   - {fileID: 3588943651214305791}
   - {fileID: 3588943650876193438}
   - {fileID: 3588943650812027268}
+  - {fileID: 8828990585537760257}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -197,14 +198,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19eaecb142f8f754e99140db0464489c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fMoveSpeed: 10
-  fMaxMoveSpeed: 10
+  fMoveSpeed: 8
+  fMaxMoveSpeed: 8
   fGroundDeceleration: 0.1
   fAirDeceleration: 0.75
   fGroundKBDeceleration: 0.75
   fAirKBDeceleration: 0.9
-  fJumpHeight: 20
-  fMaxFallVel: -100
+  fJumpHeight: 12.5
+  fMaxFallVel: -50
   fFallGravity: 1
   fFallSpeed: 0
   fJumpPressRem: 0.1
@@ -264,6 +265,96 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!1001 &2414390834645566328
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3588943651542944504}
+    m_Modifications:
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Intensity
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_BlendStyleIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9330719
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605691, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Name
+      value: Sprite Light 2D.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559285619862605691, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+--- !u!4 &8828990585537760257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6559285619862605689, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
+  m_PrefabInstance: {fileID: 2414390834645566328}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7694750400644542205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -317,11 +408,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_PointLightOuterRadius
-      value: 11
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_PointLightInnerRadius
-      value: 9
+      value: 4.9
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_Intensity
@@ -329,15 +420,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_BlendStyleIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_Color.g
-      value: 0.97834647
+      value: 0.9330719
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605690, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_Color.b
-      value: 0.75
+      value: 0.7490196
       objectReference: {fileID: 0}
     - target: {fileID: 6559285619862605691, guid: f27eeaadd687bad48a70f72c52cbc78f, type: 3}
       propertyPath: m_Name

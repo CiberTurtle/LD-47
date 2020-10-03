@@ -21,6 +21,6 @@ public class Wall : MonoBehaviour, IToggleable
 
 	void OnDrawGizmos()
 	{
-		if (srOutline) srOutline.size = srWall.size;
+		if (srOutline && srWall) srOutline.size = srWall.size;
 	}
 }

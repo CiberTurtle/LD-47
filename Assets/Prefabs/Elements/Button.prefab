@@ -77,9 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bInvert: 0
-  toggles:
-    m_PersistentCalls:
-      m_Calls: []
+  tToggles: {fileID: 0}
   spUp: {fileID: -8268544896990096095, guid: 93426e87aac44064294766a6da35d22b, type: 3}
   spDown: {fileID: -2699462823842238323, guid: 93426e87aac44064294766a6da35d22b, type: 3}
   tActivationArea: {fileID: 6557676258807362413}
@@ -123,8 +121,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 618806489
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -8268544896990096095, guid: 93426e87aac44064294766a6da35d22b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
