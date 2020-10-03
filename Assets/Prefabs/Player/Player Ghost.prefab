@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3a7ddf7dd3ff14baa176b79c691263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spGravestone: {fileID: -2760252045742616807, guid: b361b2f5604bec445aceee357e66d860, type: 3}
+  spDead: {fileID: -6463411206218437834, guid: fa0f73eb2c2345b45b179ce2b61d55d6, type: 3}
+  spLost: {fileID: -8144090236573073337, guid: fa0f73eb2c2345b45b179ce2b61d55d6, type: 3}
   rend: {fileID: 9059285355052296787}
   lmGround:
     serializedVersion: 2
     m_Bits: 256
   past:
     v2History: []
+    bManualDeath: 1
 --- !u!95 &2250964743062340439
 Animator:
   serializedVersion: 3
@@ -4912,7 +4914,7 @@ PrefabInstance:
     - target: {fileID: 3588943650876193439, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fa0f73eb2c2345b45b179ce2b61d55d6, type: 3}
+      objectReference: {fileID: -7531611431228018030, guid: fa0f73eb2c2345b45b179ce2b61d55d6, type: 3}
     - target: {fileID: 3588943650876193439, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
       propertyPath: m_SortingLayerID
       value: -1905055709
@@ -4977,6 +4979,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 8ac75361b9a7ad34baccbf88b11f81fa, type: 2}
+    - target: {fileID: 3588943651542944507, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588943651542944507, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3588943651542944509, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
       propertyPath: m_Size.x
       value: 0.9
@@ -4984,6 +4994,10 @@ PrefabInstance:
     - target: {fileID: 3588943651542944509, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
       propertyPath: m_Size.y
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588943651542944509, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3588943651542944511, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
       propertyPath: m_Name

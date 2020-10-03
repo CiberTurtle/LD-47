@@ -16,4 +16,10 @@ public class Player : MonoBehaviour
 	{
 		past.v2History.Add(rb.position);
 	}
+
+	public void Die()
+	{
+		past.bManualDeath = false;
+		FindObjectOfType<Game>().Redo();
+	}
 }

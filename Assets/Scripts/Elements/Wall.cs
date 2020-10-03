@@ -5,7 +5,9 @@ public class Wall : MonoBehaviour, IToggleable
 {
 	[SerializeField] SpriteRenderer srWall;
 	[SerializeField] SpriteRenderer srOutline;
+	[SerializeField] LayerMask lmPlayer;
 
+	bool bLastState = false;
 	BoxCollider2D bc2dWall;
 
 	void Awake()
@@ -15,8 +17,15 @@ public class Wall : MonoBehaviour, IToggleable
 
 	public void SetActive(bool state)
 	{
+		if (state != bLastState && state == true)
+		{
+			if (Physics2D.OverlapBox(transform.position, srWall.size - new Vector2(0.1f, 0.1f), 0, lmPlayer)) FindObjectOfType<Player>().Die();
+		}
+
 		srWall.enabled = state;
 		bc2dWall.enabled = state;
+
+		bLastState = state;
 	}
 
 	void OnDrawGizmos()

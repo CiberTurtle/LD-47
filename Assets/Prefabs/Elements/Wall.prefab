@@ -48,6 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   srWall: {fileID: 1507690502170671950}
   srOutline: {fileID: 1507690502234206627}
+  lmPlayer:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!212 &1507690502170671950
 SpriteRenderer:
   m_ObjectHideFlags: 0

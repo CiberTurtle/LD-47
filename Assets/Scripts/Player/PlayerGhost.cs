@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class PlayerGhost : MonoBehaviour
 {
-	[SerializeField] Sprite spGravestone;
+	[SerializeField] Sprite spDead;
+	[SerializeField] Sprite spLost;
 	[SerializeField] SpriteRenderer rend;
 	[SerializeField] LayerMask lmGround;
 
@@ -24,13 +25,20 @@ public class PlayerGhost : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		if (index < past.v2History.Count)
+		if (index < (past.bManualDeath ? past.v2History.Count : past.v2History.Count - 1))
 		{
 			rb.position = past.v2History[index];
 
 			if (index != 0 && past.v2History[index].x != past.v2History[index - 1].x) transform.localScale = new Vector3(past.v2History[index].x > past.v2History[index - 1].x ? 1 : -1, 1, 1);
 
 			index++;
+		}
+		else
+		{
+			if (past.bManualDeath)
+				rend.sprite = spLost;
+			else
+				rend.sprite = spDead;
 		}
 	}
 }

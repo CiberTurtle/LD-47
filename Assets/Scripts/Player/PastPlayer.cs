@@ -7,4 +7,5 @@ using UnityEngine;
 public class Past
 {
 	public List<Vector2> v2History = new List<Vector2>();
+	public bool bManualDeath = true;
 }

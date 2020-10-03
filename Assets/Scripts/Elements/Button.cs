@@ -10,6 +10,7 @@ public class Button : MonoBehaviour
 	[SerializeField] Sprite spDown;
 	[SerializeField] Transform tActivationArea;
 	[SerializeField] LayerMask lmPlayer;
+	[SerializeField] LineRenderer lrLine;
 
 	SpriteRenderer sr;
 	IToggleable toggle;
@@ -19,6 +20,9 @@ public class Button : MonoBehaviour
 		sr = GetComponent<SpriteRenderer>();
 
 		toggle = tToggles.GetComponent<IToggleable>();
+
+		lrLine.SetPosition(0, transform.position);
+		lrLine.SetPosition(1, tToggles.position);
 	}
 
 	void Update()
@@ -44,5 +48,11 @@ public class Button : MonoBehaviour
 		if (tActivationArea) Gizmos.DrawWireCube(tActivationArea.position, tActivationArea.localScale);
 
 		if (tToggles) Gizmos.DrawLine(transform.position, tToggles.position);
+
+		if (lrLine & tToggles)
+		{
+			lrLine.SetPosition(0, transform.position);
+			lrLine.SetPosition(1, tToggles.position);
+		}
 	}
 }
