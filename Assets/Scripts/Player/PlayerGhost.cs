@@ -3,10 +3,12 @@ using UnityEngine;
 
 public class PlayerGhost : MonoBehaviour
 {
-	public Past past;
+	[SerializeField] Sprite spGravestone;
+	[SerializeField] SpriteRenderer rend;
+	[SerializeField] LayerMask lmGround;
 
-	public int index = 0;
-
+	[HideInInspector] public Past past;
+	int index = 0;
 	Rigidbody2D rb;
 
 	void Awake()
@@ -29,6 +31,11 @@ public class PlayerGhost : MonoBehaviour
 			if (index != 0 && past.v2History[index].x != past.v2History[index - 1].x) transform.localScale = new Vector3(past.v2History[index].x > past.v2History[index - 1].x ? 1 : -1, 1, 1);
 
 			index++;
+		}
+		else
+		{
+			rend.sprite = spGravestone;
+			gameObject.layer = lmGround;
 		}
 	}
 }

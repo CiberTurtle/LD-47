@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3a7ddf7dd3ff14baa176b79c691263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spGravestone: {fileID: -2760252045742616807, guid: b361b2f5604bec445aceee357e66d860, type: 3}
+  rend: {fileID: 9059285355052296787}
+  lmGround:
+    serializedVersion: 2
+    m_Bits: 256
   past:
     v2History: []
-  index: 0
 --- !u!95 &2250964743062340439
 Animator:
   serializedVersion: 3
@@ -5007,5 +5011,10 @@ GameObject:
 --- !u!4 &9059285355052296786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3588943650876193438, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+  m_PrefabInstance: {fileID: 5509997137390473420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &9059285355052296787 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3588943650876193439, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
   m_PrefabInstance: {fileID: 5509997137390473420}
   m_PrefabAsset: {fileID: 0}
