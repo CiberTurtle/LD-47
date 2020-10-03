@@ -317,6 +317,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button.04
       objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].y
+      value: 1.75
+      objectReference: {fileID: 0}
     - target: {fileID: 7181847780982030425, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -381,6 +397,22 @@ PrefabInstance:
     - target: {fileID: 3705172634548359193, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Name
       value: Button.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: -2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].y
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7181847780982030425, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
@@ -520,6 +552,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button.05
       objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7181847780982030425, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -648,12 +696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
---- !u!4 &596280847 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
-  m_PrefabInstance: {fileID: 864518612}
-  m_PrefabAsset: {fileID: 0}
---- !u!28 &859004464
+--- !u!28 &470863490
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -692,12 +735,74 @@ Texture2D:
   m_LightmapFormat: 0
   m_ColorSpace: 0
   image data: 3068
-  _typelessdata: ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffff3fffffff00ffffff3fffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffff7fffffff7fffffff7fffffff7fffffff7fffffff00ffffff7fffffff7fffffff7fffffff7fffffff3fffffff00ffffff3fffffff7fffffff7fffffff7fffffff7fffffff00ffffff5fffffff00ffffff00ffffff5fffffff00ffffff00ffffff7fffffff7fffffff4fffffff9fffffff3fffffff1fffffff9fffffff3fffffff0fffffff2fffffff3fffffff7fffffff9fffffff3fffffff1fffffff9fffffff3fffffff7fffffff9fffffff3fffffff0fffffff9fffffff7fffffff3fffffff9fffffff7fffffff4fffffff8fffffff7fffffff3fffffff43ffffff71ffffff11ffffff62ffffff77ffffff91ffffff6dffffff4affffff6fffffff4affffff5c
+  _typelessdata: ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff3fffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffffbfffffffffffffffbfffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffbfffffffbfffffff00ffffffbfffffffbfffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff00ffffff00ffffff3fffffff7fffffff7fffffff7fffffff3fffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff3fffffff7fffffff7fffffff7fffffff00ffffff00ffffff5fffffff00ffffff5fffffff2fffffff8fffffff00ffffff8fffffff7fffffff4fffffff9fffffff3fffffff7fffffff9fffffff2fffffff6fffffff7fffffff1fffffff7fffffff9fffffff3fffffff7fffffff7fffffff00ffffff7fffffff7fffffff1fffffff0fffffff8fffffff7fffffff4fffffff5fffffff00ffffff5fffffff8fffffff7fffffff00ffffff43ffffff68ffffff41ffffff58ffffff74ffffff6effffff72ffffff34ffffff63ffffff4fffffff59
   m_StreamData:
     serializedVersion: 2
     offset: 0
     size: 0
     path: 
+--- !u!1001 &592095176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.783698
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7617965
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
+--- !u!4 &596280847 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
+  m_PrefabInstance: {fileID: 864518612}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &864518612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -763,6 +868,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
+--- !u!1001 &893696777
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8640807
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36636525
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!4 &928157927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
@@ -831,6 +993,22 @@ PrefabInstance:
     - target: {fileID: 3705172634548359193, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Name
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: -5.5162916
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: -3.4914434
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].y
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 7181847780982030425, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
@@ -973,6 +1151,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
+--- !u!1001 &1547066966
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.4680767
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.7313812
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!1001 &1631666411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1039,6 +1274,18 @@ PrefabInstance:
     - target: {fileID: 5232106817170356592, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: 3.0121436
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: 1.5497379
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 7181847780982030425, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
@@ -1108,6 +1355,22 @@ PrefabInstance:
     - target: {fileID: 3705172634548359193, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Name
       value: Button.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].y
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7181847780982030425, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
@@ -1180,6 +1443,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
+--- !u!28 &1864628063
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 36
+  m_Height: 16
+  m_CompleteImageSize: 3068
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 6
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: -10
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  image data: 3068
+  _typelessdata: ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffff3fffffff00ffffff3fffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffff7fffffff7fffffff7fffffff7fffffff7fffffff00ffffff7fffffff7fffffff7fffffff7fffffff3fffffff00ffffff3fffffff7fffffff7fffffff7fffffff7fffffff00ffffff5fffffff00ffffff00ffffff5fffffff00ffffff00ffffff7fffffff7fffffff4fffffff9fffffff3fffffff1fffffff9fffffff3fffffff0fffffff2fffffff3fffffff7fffffff9fffffff3fffffff1fffffff9fffffff3fffffff7fffffff9fffffff3fffffff0fffffff9fffffff7fffffff3fffffff9fffffff7fffffff4fffffff8fffffff7fffffff3fffffff43ffffff71ffffff11ffffff62ffffff77ffffff91ffffff6dffffff4affffff6fffffff4affffff5c
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &1867748546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1239,57 +1547,85 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button.01
       objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].y
+      value: -2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7181847780982030425, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
---- !u!28 &1949970858
-Texture2D:
+--- !u!1001 &1951680477
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   serializedVersion: 2
-  m_Width: 36
-  m_Height: 16
-  m_CompleteImageSize: 3068
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 6
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: -10
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  image data: 3068
-  _typelessdata: ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff3fffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffffbfffffffffffffffbfffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffbfffffffbfffffff00ffffffbfffffffbfffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff00ffffff00ffffff3fffffff7fffffff7fffffff7fffffff3fffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff3fffffff7fffffff7fffffff7fffffff00ffffff00ffffff5fffffff00ffffff5fffffff2fffffff8fffffff00ffffff8fffffff7fffffff4fffffff9fffffff3fffffff7fffffff9fffffff2fffffff6fffffff7fffffff1fffffff7fffffff9fffffff3fffffff7fffffff7fffffff00ffffff7fffffff7fffffff1fffffff0fffffff8fffffff7fffffff4fffffff5fffffff00ffffff5fffffff8fffffff7fffffff00ffffff43ffffff68ffffff41ffffff58ffffff74ffffff6effffff72ffffff34ffffff63ffffff4fffffff59
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9086716
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9655367
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!1001 &1961508726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1348,6 +1684,22 @@ PrefabInstance:
     - target: {fileID: 3705172634548359193, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Name
       value: Button.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: -2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305715802119030446, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+      propertyPath: m_Positions.Array.data[1].y
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7181847780982030425, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_Enabled
@@ -1542,7 +1894,7 @@ Transform:
   m_Children:
   - {fileID: 8964053943295095278}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8964053942042922719
 MonoBehaviour:
