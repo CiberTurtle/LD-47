@@ -32,10 +32,5 @@ public class PlayerGhost : MonoBehaviour
 
 			index++;
 		}
-		else
-		{
-			rend.sprite = spGravestone;
-			gameObject.layer = lmGround;
-		}
 	}
 }
