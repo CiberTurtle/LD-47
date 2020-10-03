@@ -186,6 +186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   past:
     v2History: []
+    bManualDeath: 1
+  pfDeathEffect: {fileID: 1000667138139103881, guid: 632853f281a98cd4a863de69db4c9ccb, type: 3}
+  pfRedoEffect: {fileID: 1000667138139103881, guid: 23c33d4a00ab6f94fbadc25b6892b621, type: 3}
 --- !u!114 &3588943651542944506
 MonoBehaviour:
   m_ObjectHideFlags: 0

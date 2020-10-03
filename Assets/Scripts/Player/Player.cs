@@ -4,6 +4,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 	public Past past = new Past();
+	[SerializeField] GameObject pfDeathEffect;
+	[SerializeField] GameObject pfRedoEffect;
 
 	Rigidbody2D rb;
 
@@ -19,7 +21,13 @@ public class Player : MonoBehaviour
 
 	public void Die()
 	{
+		Util.TryInstantiate(pfDeathEffect, transform.position, Quaternion.identity);
 		past.bManualDeath = false;
 		FindObjectOfType<Game>().Redo();
+	}
+
+	void OnDestroy()
+	{
+		Util.TryInstantiate(pfRedoEffect, transform.position, Quaternion.identity);
 	}
 }

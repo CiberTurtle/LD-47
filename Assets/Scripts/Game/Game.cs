@@ -27,7 +27,9 @@ public class Game : MonoBehaviour
 
 	void LateUpdate()
 	{
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.R))
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		else if (Input.GetKeyDown(KeyCode.Space))
 			Redo();
 
 		if (Physics2D.OverlapBox(tEndPoint.position, tEndPoint.localScale, 0, lmPlayer)) fTimeOnExit += Time.deltaTime; else fTimeOnExit = 0;
