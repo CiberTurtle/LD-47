@@ -128,7 +128,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 363359886695541346, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: tToggles
@@ -148,15 +148,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -164,7 +164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -200,12 +200,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+--- !u!4 &71637704 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+  m_PrefabInstance: {fileID: 71637703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &85039322
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -221,15 +226,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -237,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -262,7 +267,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
       propertyPath: m_Name
@@ -314,6 +319,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
+--- !u!4 &192105582 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+  m_PrefabInstance: {fileID: 192105581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &213026764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -392,7 +402,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 363359886695541346, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: tToggles
@@ -412,15 +422,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -464,12 +474,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+--- !u!4 &431853892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+  m_PrefabInstance: {fileID: 431853891}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &642679207
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 363359886695541346, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: tToggles
@@ -489,15 +504,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -505,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -541,12 +556,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+--- !u!4 &642679208 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+  m_PrefabInstance: {fileID: 642679207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &722309792
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -562,15 +582,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -611,7 +631,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -627,15 +647,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -643,7 +663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -676,51 +696,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
   m_PrefabInstance: {fileID: 806255671}
   m_PrefabAsset: {fileID: 0}
---- !u!28 &1364835723
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 2
-  m_Width: 36
-  m_Height: 16
-  m_CompleteImageSize: 3068
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 6
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: -10
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  image data: 3068
-  _typelessdata: ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff3fffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffffbfffffffffffffffbfffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffbfffffffbfffffff00ffffffbfffffffbfffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff00ffffff00ffffff3fffffff7fffffff7fffffff7fffffff3fffffff00ffffff7fffffff00ffffff00ffffff00ffffff7fffffff00ffffff3fffffff7fffffff7fffffff7fffffff00ffffff00ffffff5fffffff00ffffff5fffffff2fffffff8fffffff00ffffff8fffffff7fffffff4fffffff9fffffff3fffffff7fffffff9fffffff2fffffff6fffffff7fffffff1fffffff7fffffff9fffffff3fffffff7fffffff7fffffff00ffffff7fffffff7fffffff1fffffff0fffffff8fffffff7fffffff4fffffff5fffffff00ffffff5fffffff8fffffff7fffffff00ffffff43ffffff68ffffff41ffffff58ffffff74ffffff6effffff72ffffff34ffffff63ffffff4fffffff59
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!4 &1461455101 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
@@ -731,7 +706,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
       propertyPath: m_Name
@@ -783,57 +758,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
---- !u!28 &1730382088
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &1598190839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+  m_PrefabInstance: {fileID: 1598190838}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 2
-  m_Width: 36
-  m_Height: 16
-  m_CompleteImageSize: 3068
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 6
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: -10
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  image data: 3068
-  _typelessdata: ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff7fffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffff3fffffff00ffffff3fffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff3fffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffffffffffff7fffffff7fffffff7fffffffffffffff00ffffffffffffff7fffffff7fffffff7fffffff7fffffff00ffffff7fffffff7fffffff7fffffff7fffffff7fffffff00ffffff7fffffff7fffffff7fffffff7fffffff3fffffff00ffffff3fffffff7fffffff7fffffff7fffffff7fffffff00ffffff5fffffff00ffffff00ffffff5fffffff00ffffff00ffffff7fffffff7fffffff4fffffff9fffffff3fffffff1fffffff9fffffff3fffffff0fffffff2fffffff3fffffff7fffffff9fffffff3fffffff1fffffff9fffffff3fffffff7fffffff9fffffff3fffffff0fffffff9fffffff7fffffff3fffffff9fffffff7fffffff4fffffff8fffffff7fffffff3fffffff43ffffff71ffffff11ffffff62ffffff77ffffff91ffffff6dffffff4affffff6fffffff4affffff5c
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &1986745055
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
       propertyPath: m_Name
@@ -869,7 +804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -885,6 +820,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
+--- !u!4 &1986745056 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+  m_PrefabInstance: {fileID: 1986745055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2033522901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
@@ -895,7 +835,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8964053942042922718}
     m_Modifications:
     - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
       propertyPath: m_Name
@@ -931,7 +871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -947,6 +887,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
+--- !u!4 &2086672983 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+  m_PrefabInstance: {fileID: 2086672982}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &951893975654132955
 Transform:
   m_ObjectHideFlags: 0
@@ -1094,8 +1039,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8964053943295095278}
+  - {fileID: 1598190839}
+  - {fileID: 192105582}
+  - {fileID: 2086672983}
+  - {fileID: 1986745056}
+  - {fileID: 431853892}
+  - {fileID: 642679208}
+  - {fileID: 71637704}
+  - {fileID: 2033522901}
+  - {fileID: 1143435427}
+  - {fileID: 1461455101}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8964053942042922719
 MonoBehaviour:

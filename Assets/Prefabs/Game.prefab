@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8624349664618291645}
   - component: {fileID: 8624349664618291644}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 8624349664644253818}
   - component: {fileID: 8624349664644253816}
   - component: {fileID: 8624349664644253817}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5074,7 +5074,7 @@ GameObject:
   - component: {fileID: 8624349664775900097}
   - component: {fileID: 8624349664775900098}
   - component: {fileID: 8624349664775900099}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ui.main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5171,7 +5171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8624349664904455380}
   - component: {fileID: 8624349664904455387}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Global Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5243,7 +5243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8624349665687011505}
   - component: {fileID: 8624349665687011506}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5354,7 +5354,7 @@ GameObject:
   - component: {fileID: 8624349665992709081}
   - component: {fileID: 8624349665992709087}
   - component: {fileID: 8624349665992709080}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5418,7 +5418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8624349666143053340}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5461,7 +5461,7 @@ GameObject:
   - component: {fileID: 8624349666226486035}
   - component: {fileID: 8624349666226486028}
   - component: {fileID: 8624349666226486029}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ui.dev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6123,7 +6123,7 @@ GameObject:
   - component: {fileID: 8624349666504655999}
   - component: {fileID: 8624349666504655997}
   - component: {fileID: 8624349666504655998}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6197,7 +6197,7 @@ GameObject:
   - component: {fileID: 8624349666557125054}
   - component: {fileID: 8624349666557125053}
   - component: {fileID: 8624349666557124930}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -6332,7 +6332,7 @@ GameObject:
   - component: {fileID: 8624349666629199459}
   - component: {fileID: 8624349666629199457}
   - component: {fileID: 8624349666629199458}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Graph
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6405,7 +6405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8624349666649841862}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Camera Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6442,6 +6442,10 @@ PrefabInstance:
     - target: {fileID: 7491299268208700340, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
       propertyPath: m_Name
       value: FPS
+      objectReference: {fileID: 0}
+    - target: {fileID: 7491299268208700340, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7491299268208700342, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
       propertyPath: m_text
@@ -6715,6 +6719,10 @@ PrefabInstance:
     - target: {fileID: 7491299268208700340, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
       propertyPath: m_Name
       value: AVG
+      objectReference: {fileID: 0}
+    - target: {fileID: 7491299268208700340, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7491299268208700342, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
       propertyPath: m_text
