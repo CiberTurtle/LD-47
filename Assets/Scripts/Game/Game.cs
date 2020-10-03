@@ -39,6 +39,7 @@ public class Game : MonoBehaviour
 	public void Redo()
 	{
 		pasts.Add(activePlayer.past);
+		activePlayer.Redo();
 		Destroy(activePlayer.gameObject);
 		activePlayer = Instantiate(pfPlayer, tSpawnPoint.position, Quaternion.identity).GetComponent<Player>();
 

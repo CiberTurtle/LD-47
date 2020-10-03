@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
 		FindObjectOfType<Game>().Redo();
 	}
 
-	void OnDestroy()
+	public void Redo()
 	{
 		Util.TryInstantiate(pfRedoEffect, transform.position, Quaternion.identity);
 	}
