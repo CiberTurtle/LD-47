@@ -5256,9 +5256,29 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8828990585537760258, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828990585537760258, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828990585537760258, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828990585537760258, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828990585537760258, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8828990585537760259, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3588943651542944505, guid: cb78abf1dff94494f852a9efadb5c479, type: 3}
