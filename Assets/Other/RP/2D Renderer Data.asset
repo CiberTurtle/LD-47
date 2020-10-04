@@ -20,28 +20,28 @@ MonoBehaviour:
   m_LightBlendStyles:
   - name: Default
     maskTextureChannel: 0
-    renderTextureScale: 0.5
+    renderTextureScale: 1
     blendMode: 99
     customBlendFactors:
       multiplicative: 1
       additive: 0
   - name: Glow
     maskTextureChannel: 0
-    renderTextureScale: 0.5
+    renderTextureScale: 1
     blendMode: 99
     customBlendFactors:
       multiplicative: 0.9
       additive: 0.1
   - name: Neon
     maskTextureChannel: 0
-    renderTextureScale: 0.5
+    renderTextureScale: 1
     blendMode: 99
     customBlendFactors:
       multiplicative: 0.25
       additive: 0.75
   - name: Dark
     maskTextureChannel: 0
-    renderTextureScale: 0.5
+    renderTextureScale: 1
     blendMode: 99
     customBlendFactors:
       multiplicative: 0
