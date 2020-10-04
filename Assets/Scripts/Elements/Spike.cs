@@ -19,7 +19,7 @@ public class Spike : MonoBehaviour, IToggleable
 
 	void Update()
 	{
-		if (rend.sprite == spUp) if (Physics2D.OverlapBox(transform.position + new Vector3(0, fPos, 0), new Vector2(rend.size.x + fSize.x, fSize.y), transform.eulerAngles.z, lmPlayer)) FindObjectOfType<Player>().Die();
+		// if (rend.sprite == spUp) if (Physics2D.OverlapBox(transform.position + new Vector3(0, fPos, 0), new Vector2(rend.size.x + fSize.x, fSize.y), transform.eulerAngles.z, lmPlayer)) FindObjectOfType<Player>().Die();
 	}
 
 	public void SetActive(bool state)
@@ -31,6 +31,14 @@ public class Spike : MonoBehaviour, IToggleable
 		else
 		{
 			rend.sprite = spDown;
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.CompareTag("Player") && rend.sprite == spUp)
+		{
+			other.GetComponent<Player>().Die();
 		}
 	}
 

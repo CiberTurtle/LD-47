@@ -31,6 +31,12 @@ public class Wall : MonoBehaviour, IToggleable
 
 	void OnDrawGizmos()
 	{
-		if (srOutline && srWall) srOutline.size = srWall.size;
+		if (srOutline && srWall)
+		{
+			srOutline.size = srWall.size;
+
+			Gizmos.color = new Color(1, 0, 0, 0.25f);
+			Gizmos.DrawWireCube(transform.position, srWall.size - Util.ToVector2(fGraceSize));
+		}
 	}
 }
