@@ -31,6 +31,8 @@ public class Game : MonoBehaviour
 	[SerializeField] float fCamAmp;
 	[SerializeField] Transform cam;
 
+	[HideInInspector] public static int iNumberOfDeaths;
+
 	bool IS_PAUSED = false;
 	float fTimeOnExit;
 	float fTimeRestarted;
@@ -74,6 +76,8 @@ public class Game : MonoBehaviour
 
 	public void Redo()
 	{
+		iNumberOfDeaths++;
+
 		pasts.Add(activePlayer.past);
 		activePlayer.Redo();
 		Destroy(activePlayer.gameObject);

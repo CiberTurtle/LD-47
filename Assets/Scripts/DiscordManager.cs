@@ -18,6 +18,8 @@ namespace Ciber_Turtle.Discord_
 
 		void Awake()
 		{
+			startTimestamp = (int)(System.DateTime.UtcNow - new System.DateTime(1970, 1, 1, 0, 0, 0, System.DateTimeKind.Utc)).TotalSeconds;
+
 			if (discord != null) discord.Dispose();
 			discord = new Discord.Discord(clientID, (System.UInt64)Discord.CreateFlags.Default);
 			Application.quitting += () => { Debug.Log("> Discord: Disposing..."); discord.Dispose(); };
@@ -26,9 +28,9 @@ namespace Ciber_Turtle.Discord_
 
 			var activity = new Discord.Activity
 			{
-				State = "Working on a LD47 Game",
-				Details = "Making with Ciber_Turtle and HappyGamer500",
-				Timestamps = { Start = (int)(System.DateTime.UtcNow - new System.DateTime(1970, 1, 1, 0, 0, 0, System.DateTimeKind.Utc)).TotalSeconds, },
+				State = $"{UnityEngine.SceneManagement.SceneManager.GetActiveScene().name}",
+				Details = $"I Died {Game.iNumberOfDeaths.ToString()} times!",
+				Timestamps = { Start = startTimestamp },
 			};
 
 			activityManager.UpdateActivity(activity, (res) =>
@@ -47,6 +49,20 @@ namespace Ciber_Turtle.Discord_
 		void Update()
 		{
 			discord.RunCallbacks();
+
+			var activity = new Discord.Activity
+			{
+				State = $"{UnityEngine.SceneManagement.SceneManager.GetActiveScene().name}",
+				Details = $"I Died {Game.iNumberOfDeaths.ToString()} times!",
+				Timestamps = { Start = startTimestamp, },
+			};
+
+			var activityManager = discord.GetActivityManager();
+
+			activityManager.UpdateActivity(activity, (res) =>
+			{
+
+			});
 		}
 	}
 }
