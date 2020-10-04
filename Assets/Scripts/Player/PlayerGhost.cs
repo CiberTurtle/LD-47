@@ -5,7 +5,8 @@ public class PlayerGhost : MonoBehaviour
 {
 	[SerializeField] Sprite spDead;
 	[SerializeField] Sprite spLost;
-	[SerializeField] SpriteRenderer rend;
+	[SerializeField] SpriteRenderer rend1;
+	[SerializeField] SpriteRenderer rend2;
 	[SerializeField] LayerMask lmGround;
 
 	[HideInInspector] public Past past;
@@ -36,9 +37,15 @@ public class PlayerGhost : MonoBehaviour
 		else
 		{
 			if (past.bManualDeath)
-				rend.sprite = spLost;
+			{
+				rend1.sprite = spLost;
+				rend2.sprite = spLost;
+			}
 			else
-				rend.sprite = spDead;
+			{
+				rend1.sprite = spDead;
+				rend2.sprite = spDead;
+			}
 		}
 	}
 }
