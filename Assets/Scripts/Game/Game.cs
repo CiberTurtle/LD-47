@@ -35,7 +35,7 @@ public class Game : MonoBehaviour
 
 	[HideInInspector] public static int iNumberOfDeaths;
 
-	bool IS_PAUSED = false;
+	[SerializeField] public bool IS_PAUSED = false;
 	float fTimeOnExit;
 	float fTimeRestarted;
 

@@ -19,4 +19,9 @@ public class MainMenu : MonoBehaviour
 	{
 		Application.OpenURL(url);
 	}
+
+	public void Pause(bool state)
+	{
+		FindObjectOfType<Game>().IS_PAUSED = state;
+	}
 }
