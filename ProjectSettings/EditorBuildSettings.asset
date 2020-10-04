@@ -21,15 +21,27 @@ EditorBuildSettings:
     path: Assets/Scenes/1-4 Staircase.unity
     guid: 85dc6932dd8a2624f9450afbb0fa1988
   - enabled: 1
-    path: Assets/Scenes/1-6 Timed Staircase.unity
-    guid: ce34b1cf16c8b864abe8ea3a2f3faec3
-  - enabled: 1
     path: Assets/Scenes/1-5 Big Staircase.unity
     guid: 568bb1e615ba1ff40945c968dac62ffa
+  - enabled: 1
+    path: Assets/Scenes/1-6 Timed Staircase.unity
+    guid: ce34b1cf16c8b864abe8ea3a2f3faec3
   - enabled: 1
     path: Assets/Scenes/1-7 Focus.unity
     guid: 52f858d0f824d8644a22f701c05c5fb3
   - enabled: 1
-    path: Assets/Scenes/2-3 Spiky.unity
+    path: Assets/Scenes/2-1 Spikes.unity
+    guid: 56b4613817616694f9ebf0a7f41e1cd8
+  - enabled: 1
+    path: Assets/Scenes/2-2 Spiky Towers.unity
+    guid: 8a23c43f2b7c40f4ea75c19cfc84b6e1
+  - enabled: 1
+    path: Assets/Scenes/2-3 Spiky Maze.unity
+    guid: 938abb49679227240a861294513515ef
+  - enabled: 1
+    path: Assets/Scenes/2-4 Spiky.unity
     guid: de1415d87bc3c03488afb61ba0955ca5
+  - enabled: 1
+    path: Assets/Scenes/2-5 IDK.unity
+    guid: bfbd9554feed16d45b179741f0af7b7a
   m_configObjects: {}
