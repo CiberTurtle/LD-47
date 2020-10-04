@@ -5,8 +5,9 @@ public class PlayerGhost : MonoBehaviour
 {
 	[SerializeField] Sprite spDead;
 	[SerializeField] Sprite spLost;
-	[SerializeField] SpriteRenderer rend1;
-	[SerializeField] SpriteRenderer rend2;
+	[SerializeField] SpriteRenderer srRend1;
+	[SerializeField] SpriteRenderer srRend2;
+	[SerializeField] SpriteRenderer srCosmetic;
 	[SerializeField] LayerMask lmGround;
 
 	[HideInInspector] public Past past;
@@ -16,6 +17,11 @@ public class PlayerGhost : MonoBehaviour
 	void Awake()
 	{
 		rb = GetComponent<Rigidbody2D>();
+	}
+
+	void Start()
+	{
+		srCosmetic.sprite = FindObjectOfType<Game>().spCosmetics[past.iCosmeticIndex];
 	}
 
 	public PlayerGhost SetPast(Past past)
@@ -38,13 +44,13 @@ public class PlayerGhost : MonoBehaviour
 		{
 			if (past.bManualDeath)
 			{
-				rend1.sprite = spLost;
-				rend2.sprite = spLost;
+				srRend1.sprite = spLost;
+				srRend2.sprite = spLost;
 			}
 			else
 			{
-				rend1.sprite = spDead;
-				rend2.sprite = spDead;
+				srRend1.sprite = spDead;
+				srRend2.sprite = spDead;
 			}
 		}
 	}

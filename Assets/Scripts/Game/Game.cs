@@ -10,7 +10,9 @@ public class Game : MonoBehaviour
 	public Player activePlayer;
 	public List<PlayerGhost> ghostPlayers = new List<PlayerGhost>();
 	public List<Past> pasts = new List<Past>();
-
+	[Space]
+	public Sprite[] spCosmetics;
+	[Space]
 	[SerializeField] GameObject pfPlayer;
 	[SerializeField] GameObject pfGhostPlayer;
 	[Space]
@@ -82,6 +84,7 @@ public class Game : MonoBehaviour
 		activePlayer.Redo();
 		Destroy(activePlayer.gameObject);
 		activePlayer = Instantiate(pfPlayer, tSpawnPoint.position, Quaternion.identity).GetComponent<Player>();
+		activePlayer.past.iCosmeticIndex = Mathf.RoundToInt(Random.Range(0, spCosmetics.Length));
 
 		ghostPlayers.ForEach(x => Destroy(x.gameObject));
 		ghostPlayers = new List<PlayerGhost>();

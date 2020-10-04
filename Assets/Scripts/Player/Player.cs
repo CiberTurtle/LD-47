@@ -6,12 +6,18 @@ public class Player : MonoBehaviour
 	public Past past = new Past();
 	[SerializeField] GameObject pfDeathEffect;
 	[SerializeField] GameObject pfRedoEffect;
+	[SerializeField] SpriteRenderer srCosmetic;
 
 	Rigidbody2D rb;
 
 	void Awake()
 	{
 		rb = GetComponent<Rigidbody2D>();
+	}
+
+	void Start()
+	{
+		srCosmetic.sprite = FindObjectOfType<Game>().spCosmetics[past.iCosmeticIndex];
 	}
 
 	void FixedUpdate()
