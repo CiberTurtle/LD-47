@@ -188,6 +188,108 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
+--- !u!1001 &75422703
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.0827813
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.4716759
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
+--- !u!28 &84058691
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 96
+  m_Height: 16
+  m_CompleteImageSize: 8200
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 7
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: -10
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  image data: 8200
+  _typelessdata: ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff0000ffff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff00007fff000000ff000000ff00003fff00007fffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00007fff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff00003fff00007fff000000ffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00007fff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00003fff00007fff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff0000ffff000000ff00003fff0000ffff00003fffffff00ff0000ffff00007fff00007fff00007fff00007fffffff00ff00007fff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff0000ffff00007fff000000ffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff00007fff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff0000ffff00003fff0000ffff00003fff000000ffffff00ff0000ffff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff0000ffff0000ffff0000bfff00007fff00003fffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff0000ffff00007fff00003fffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff00007fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff00003fff00007fff00007fff0000bfff0000bfffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff000000ff000000ff00003fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff0000ffffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff000000ffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff000000ff000000ff000000ff000000ff0000ffffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff00007fff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00005fff00005fff7f7f2fff00008fff00007fff7f7f3fff00007fff00007fff7f7f4fff000000ff00008fff7f7f00ff00008fff00007fff7f7f5fff00005fff000000ff7f7f00ff000000ff00008fff7f7f00ff000000ff00003fff7f7f00ff0000cfff00009fff7f7f0fff0000bfff00007fff7f7f4fff00008fff00007fff7f7f4fff000000ff00007fff7f7f00ff00008fff00007fff7f7f7fff00007fff000000ff7f7f00ff000000ff00007fff7f7f00ff000000ff00009fff7f7f0fff00009fff00003fff7f7f7fff00008fff00007fff7f7f4fff00008fff00007fff7f7f3fff00005fff0000bfff7f7f1fff00005fff00008fff7f7f2fff00008fff00007fff7f7f4fff00005fff0000bfff7f7f1fff000000ff00002fff7f7f7fff00009fff00007fff7f7f4fff000000ff000000ff7f7f00ff000000ff000000ff7f7f00ff000000ff00005fff7f7f00ff000000ff000000ff7f7f00ff000000ff000000ff7f7f00ff000000ff00005fff7f7f00ff00005fff00007fff7f7f4fff00008bff3f3f63ff3f3f63ff000083ff3f3f27ff3f3f43ff000087ff3f3f6fff3f3f00ff000043ff3f3f00ff3f3f3bff00007fff3f3f57ff3f3f33ff000043ff3f3f27ff3f3f4fff00003bff3f3f2fff3f3f33ff00005fff3f3f1fff3f3f5fff1f1f71ff1f1f57ff3f3f38ff1f1f58ff1f1f35ff3f3f2eff1f1f64ff2f2f48ff2f2f31ff2f2f48
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &121830688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -331,6 +433,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d10fe161f676bc40ac5a0377657b5ef, type: 3}
+--- !u!1001 &272271962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.038419
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0481629
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!1001 &297656952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -547,6 +706,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
   m_PrefabInstance: {fileID: 1551403195}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &485523518
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.7147167
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3106005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!1001 &528425601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -698,6 +914,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+--- !u!1001 &729155151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.0179095
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.1988058
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!4 &760805201 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
@@ -784,6 +1057,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
+--- !u!1001 &823017435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.303488
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.097821
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!4 &841024793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
@@ -804,6 +1134,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
   m_PrefabInstance: {fileID: 456040027}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1147631393
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7856753
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.3471184
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!1001 &1313459745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1323,51 +1710,120 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
---- !u!28 &1872768938
-Texture2D:
+--- !u!1001 &1929141512
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   serializedVersion: 2
-  m_Width: 96
-  m_Height: 16
-  m_CompleteImageSize: 8200
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 7
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: -10
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  image data: 8200
-  _typelessdata: ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff0000ffff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff00007fff000000ff000000ff00003fff00007fffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00007fff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff00003fff00007fff000000ffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00007fff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00003fff00007fff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff0000ffff000000ff00003fff0000ffff00003fffffff00ff0000ffff00007fff00007fff00007fff00007fffffff00ff00007fff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff0000ffff00007fff000000ffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff00007fff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff0000ffff00003fff0000ffff00003fff000000ffffff00ff0000ffff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff0000ffff0000ffff0000bfff00007fff00003fffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff0000ffff00007fff00003fffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff00007fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff00003fff00007fff00007fff0000bfff0000bfffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff000000ff000000ff00003fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff0000ffffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff000000ffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff000000ff000000ff000000ff000000ff0000ffffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff00007fff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00005fff00005fff7f7f2fff00008fff00007fff7f7f3fff00007fff00007fff7f7f4fff000000ff00008fff7f7f00ff00008fff00007fff7f7f5fff00005fff000000ff7f7f00ff000000ff00008fff7f7f00ff000000ff00003fff7f7f00ff0000cfff00009fff7f7f0fff0000bfff00007fff7f7f4fff00008fff00007fff7f7f4fff000000ff00007fff7f7f00ff00008fff00007fff7f7f7fff00007fff000000ff7f7f00ff000000ff00007fff7f7f00ff000000ff00009fff7f7f0fff00009fff00003fff7f7f7fff00008fff00007fff7f7f4fff00008fff00007fff7f7f3fff00005fff0000bfff7f7f1fff00005fff00008fff7f7f2fff00008fff00007fff7f7f4fff00005fff0000bfff7f7f1fff000000ff00002fff7f7f7fff00009fff00007fff7f7f4fff000000ff000000ff7f7f00ff000000ff000000ff7f7f00ff000000ff00005fff7f7f00ff000000ff000000ff7f7f00ff000000ff000000ff7f7f00ff000000ff00005fff7f7f00ff00005fff00007fff7f7f4fff00008bff3f3f63ff3f3f63ff000083ff3f3f27ff3f3f43ff000087ff3f3f6fff3f3f00ff000043ff3f3f00ff3f3f3bff00007fff3f3f57ff3f3f33ff000043ff3f3f27ff3f3f4fff00003bff3f3f2fff3f3f33ff00005fff3f3f1fff3f3f5fff1f1f71ff1f1f57ff3f3f38ff1f1f58ff1f1f35ff3f3f2eff1f1f64ff2f2f48ff2f2f31ff2f2f48
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.48841286
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.26858658
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
+--- !u!1001 &2090955804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6086256710674262528, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_Name
+      value: Torch
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.731902
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.142909
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b5892badd532834188305014db7510c, type: 3}
 --- !u!1001 &2102259159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1625,6 +2081,42 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: -9, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -8, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -7, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -6, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 11, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -1710,15 +2202,15 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 24
     m_Data: {fileID: 11400000, guid: 4e89a7aab0b6837459c8d5e428b1ea8d, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 4
+    m_Data: {fileID: 11400000, guid: 1771e97a3bddb714e8505df00dc24b05, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 24
     m_Data: {fileID: -587198908484225578, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 4
+    m_Data: {fileID: 6982980432030266159, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 24
+  - m_RefCount: 28
     m_Data:
       e00: 1
       e01: 0
@@ -1737,7 +2229,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 24
+  - m_RefCount: 28
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1841,7 +2333,7 @@ Transform:
   m_Children:
   - {fileID: 8964053943295095278}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8964053942042922719
 MonoBehaviour:
@@ -2556,8 +3048,8 @@ Tilemap:
   - first: {x: -5, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2565,8 +3057,8 @@ Tilemap:
   - first: {x: -4, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2574,8 +3066,8 @@ Tilemap:
   - first: {x: -3, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2583,8 +3075,8 @@ Tilemap:
   - first: {x: -2, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2592,8 +3084,8 @@ Tilemap:
   - first: {x: -1, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2601,8 +3093,8 @@ Tilemap:
   - first: {x: 0, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2610,8 +3102,8 @@ Tilemap:
   - first: {x: 1, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2619,8 +3111,8 @@ Tilemap:
   - first: {x: 2, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2628,8 +3120,8 @@ Tilemap:
   - first: {x: 3, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2637,8 +3129,8 @@ Tilemap:
   - first: {x: 4, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2646,8 +3138,8 @@ Tilemap:
   - first: {x: 5, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2655,8 +3147,8 @@ Tilemap:
   - first: {x: 6, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2664,8 +3156,8 @@ Tilemap:
   - first: {x: 7, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2673,8 +3165,8 @@ Tilemap:
   - first: {x: 8, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2790,8 +3282,8 @@ Tilemap:
   - first: {x: -9, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2799,8 +3291,8 @@ Tilemap:
   - first: {x: -8, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2808,8 +3300,8 @@ Tilemap:
   - first: {x: -7, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2817,8 +3309,8 @@ Tilemap:
   - first: {x: -6, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2826,8 +3318,8 @@ Tilemap:
   - first: {x: -5, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2835,8 +3327,8 @@ Tilemap:
   - first: {x: -4, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2844,8 +3336,8 @@ Tilemap:
   - first: {x: -3, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2853,8 +3345,8 @@ Tilemap:
   - first: {x: -2, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2862,8 +3354,8 @@ Tilemap:
   - first: {x: -1, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2871,8 +3363,8 @@ Tilemap:
   - first: {x: 0, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2880,8 +3372,8 @@ Tilemap:
   - first: {x: 1, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2889,8 +3381,8 @@ Tilemap:
   - first: {x: 2, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2898,8 +3390,8 @@ Tilemap:
   - first: {x: 3, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2907,8 +3399,8 @@ Tilemap:
   - first: {x: 4, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3401,15 +3893,27 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 28
-    m_Data: {fileID: 11400000, guid: 6e0f3167f4351a944aa295e011a08ef9, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 120
     m_Data: {fileID: 11400000, guid: 4e89a7aab0b6837459c8d5e428b1ea8d, type: 2}
+  - m_RefCount: 26
+    m_Data: {fileID: 11400000, guid: 1771e97a3bddb714e8505df00dc24b05, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: c56da4220ff66ee44bb4c7617eac2d65, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 172859fd4e820b4468d7a659ebe95889, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 28
-    m_Data: {fileID: 784245876008000899, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 120
     m_Data: {fileID: -587198908484225578, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
+  - m_RefCount: 26
+    m_Data: {fileID: 6982980432030266159, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 5420979252461916770, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -6384629022953834397, guid: 7c95ee2bfae74164b9bd2ad3b2b90fde, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 148
     m_Data:
