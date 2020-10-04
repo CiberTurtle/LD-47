@@ -51,6 +51,7 @@ MonoBehaviour:
   lmPlayer:
     serializedVersion: 2
     m_Bits: 1024
+  fGraceSize: 0.25
 --- !u!212 &1507690502170671950
 SpriteRenderer:
   m_ObjectHideFlags: 0

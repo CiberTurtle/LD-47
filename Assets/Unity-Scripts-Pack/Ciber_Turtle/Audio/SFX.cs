@@ -34,7 +34,7 @@ namespace Ciber_Turtle.Audio
 			else
 			{
 				m_current = this;
-				if (dontDestroyOnLoad) DontDestroyOnLoad(this.gameObject);
+				if (dontDestroyOnLoad) { transform.SetParent(null); DontDestroyOnLoad(this.gameObject); }
 			}
 		}
 
@@ -77,8 +77,8 @@ namespace Ciber_Turtle.Audio
 			source.volume = volume;
 			source.pitch = pitch;
 
-			if (alt) source.outputAudioMixerGroup = altMixer;
-			else source.outputAudioMixerGroup = sfxMixer;
+			if (alt && altMixer) source.outputAudioMixerGroup = altMixer;
+			else if (sfxMixer) source.outputAudioMixerGroup = sfxMixer;
 
 			Destroy(source, source.clip.length + delayBeforeDestroy);
 			source.Play();

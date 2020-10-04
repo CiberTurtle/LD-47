@@ -6,6 +6,7 @@ public class Wall : MonoBehaviour, IToggleable
 	[SerializeField] SpriteRenderer srWall;
 	[SerializeField] SpriteRenderer srOutline;
 	[SerializeField] LayerMask lmPlayer;
+	[SerializeField] float fGraceSize;
 
 	bool bLastState = false;
 	BoxCollider2D bc2dWall;
@@ -19,7 +20,7 @@ public class Wall : MonoBehaviour, IToggleable
 	{
 		if (state != bLastState && state == true)
 		{
-			if (Physics2D.OverlapBox(transform.position, srWall.size - new Vector2(0.1f, 0.1f), 0, lmPlayer)) FindObjectOfType<Player>().Die();
+			if (Physics2D.OverlapBox(transform.position, srWall.size - Util.ToVector2(fGraceSize), 0, lmPlayer)) FindObjectOfType<Player>().Die();
 		}
 
 		srWall.enabled = state;

@@ -123,51 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!28 &484196410
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 2
-  m_Width: 96
-  m_Height: 16
-  m_CompleteImageSize: 8200
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 7
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: -10
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  image data: 8200
-  _typelessdata: ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff0000ffff0000ffff0000ffff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff000000ff0000ffff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffffffff00ffffff00ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff0000ffff0000ffff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff0000ffff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ffffff00ffffff00ff00007fff000000ff000000ff00003fff00007fffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00007fff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff00003fff00007fff000000ffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00007fff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00003fff00007fff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff0000ffff000000ff00003fff0000ffff00003fffffff00ff0000ffff00007fff00007fff00007fff00007fffffff00ff00007fff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff0000ffff00007fff000000ffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff00007fff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff0000ffff00003fff0000ffff00003fff000000ffffff00ff0000ffff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff0000ffff0000ffff0000bfff00007fff00003fffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff0000ffff00007fff00003fffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff0000ffff00007fff00007fff00007fff00007fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff00003fff00007fff00007fff0000bfff0000bfffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff000000ff000000ff00003fff00007fff0000ffffffff00ff0000ffff000000ff000000ff000000ff0000ffffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff00007fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff00003fff00007fff00007fff00007fff000000ffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00003fff00007fff0000ffff00007fff00003fffffff00ff000000ff000000ff000000ff000000ff0000ffffffff00ff0000ffff00007fff00007fff00007fff0000ffffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff0000ffff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff0000ffffffff00ff00007fff00007fff00007fff00007fff00003fffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff000000ff000000ff000000ffffff00ff000000ff000000ff00007fff000000ff000000ffffff00ff00003fff00007fff00007fff00007fff00003fffffff00ff00005fff00005fff7f7f2fff00008fff00007fff7f7f3fff00007fff00007fff7f7f4fff000000ff00008fff7f7f00ff00008fff00007fff7f7f5fff00005fff000000ff7f7f00ff000000ff00008fff7f7f00ff000000ff00003fff7f7f00ff0000cfff00009fff7f7f0fff0000bfff00007fff7f7f4fff00008fff00007fff7f7f4fff000000ff00007fff7f7f00ff00008fff00007fff7f7f7fff00007fff000000ff7f7f00ff000000ff00007fff7f7f00ff000000ff00009fff7f7f0fff00009fff00003fff7f7f7fff00008fff00007fff7f7f4fff00008fff00007fff7f7f3fff00005fff0000bfff7f7f1fff00005fff00008fff7f7f2fff00008fff00007fff7f7f4fff00005fff0000bfff7f7f1fff000000ff00002fff7f7f7fff00009fff00007fff7f7f4fff000000ff000000ff7f7f00ff000000ff000000ff7f7f00ff000000ff00005fff7f7f00ff000000ff000000ff7f7f00ff000000ff000000ff7f7f00ff000000ff00005fff7f7f00ff00005fff00007fff7f7f4fff00008bff3f3f63ff3f3f63ff000083ff3f3f27ff3f3f43ff000087ff3f3f6fff3f3f00ff000043ff3f3f00ff3f3f3bff00007fff3f3f57ff3f3f33ff000043ff3f3f27ff3f3f4fff00003bff3f3f2fff3f3f33ff00005fff3f3f1fff3f3f5fff1f1f71ff1f1f57ff3f3f38ff1f1f58ff1f1f35ff3f3f2eff1f1f64ff2f2f48ff2f2f31ff2f2f48
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &485716852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -242,6 +197,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1507690502170671944, guid: 16fb3f9476b54e7488dcef388da5384b, type: 3}
   m_PrefabInstance: {fileID: 485716852}
   m_PrefabAsset: {fileID: 0}
+--- !u!28 &720861153
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 10
+  m_Height: 16
+  m_CompleteImageSize: 844
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 5
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: -10
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  image data: 844
+  _typelessdata: cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &1126353925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -459,11 +459,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d10fe161f676bc40ac5a0377657b5ef, type: 3}
---- !u!224 &1126353926 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8624349664775899196, guid: 4d10fe161f676bc40ac5a0377657b5ef, type: 3}
-  m_PrefabInstance: {fileID: 1126353925}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1155828984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -505,7 +500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9059285355719055924, guid: e1e297d211b22eb4dbf28fbd48a9cc76, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9059285355719055924, guid: e1e297d211b22eb4dbf28fbd48a9cc76, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -535,11 +530,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1294784088779768871, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 0.5625
       objectReference: {fileID: 0}
     - target: {fileID: 1294784088779768871, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.083333336
+      value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 1857029368144748246, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_Name
@@ -583,7 +578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -614,6 +609,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1294784088779768871, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294784088779768871, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.083333336
+      objectReference: {fileID: 0}
     - target: {fileID: 1857029368144748246, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_Name
       value: God Trigger.03
@@ -628,11 +631,11 @@ PrefabInstance:
       objectReference: {fileID: 1520445725}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalPosition.z
@@ -656,7 +659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -672,11 +675,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 799003c6b26c5e649befc2921046f506, type: 3}
@@ -805,6 +808,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac6e3cc6ed6b84e48b35db73d842f6f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1521980200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1294784088779768871, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294784088779768871, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857029368144748246, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_Name
+      value: God Trigger.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414102706716858229, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: text
+      value: Look at your ghost go!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414102706716858229, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: triggers
+      value: 
+      objectReference: {fileID: 1520445725}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 799003c6b26c5e649befc2921046f506, type: 3}
 --- !u!4 &1644201191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6086256710674262530, guid: 7b5892badd532834188305014db7510c, type: 3}
@@ -819,11 +903,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1294784088779768871, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 1294784088779768871, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.083333336
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1857029368144748246, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_Name
@@ -837,6 +921,10 @@ PrefabInstance:
       propertyPath: triggers
       value: 
       objectReference: {fileID: 1520445725}
+    - target: {fileID: 6414102706716858229, guid: 799003c6b26c5e649befc2921046f506, type: 3}
+      propertyPath: flyTime
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -867,7 +955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -891,51 +979,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 799003c6b26c5e649befc2921046f506, type: 3}
---- !u!28 &1964844483
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 2
-  m_Width: 48
-  m_Height: 16
-  m_CompleteImageSize: 4096
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 6
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: -10
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_LightmapFormat: 0
-  m_ColorSpace: 0
-  image data: 4096
-  _typelessdata: ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffffff00ffffff00ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea00ffffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffffff00ffffff00ffea00ffffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea00ffffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea00ffffea00ffffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea00ffffea00ffffea00ffffea0000ffea0000ffea00ffffea00ffffea00ffffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea00ffffea00ffffea00ffffea00ffffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffffff00ffffff00ffea0000ffea0000ffea0000ffea00ffffea00ffffea00ffffea00ffffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffffff00ffffff00ffea0000ffea0000ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffffff00ffffff00ffea0000ffea00ffffea00ffffea00ffffea0000ffea0000ffea00ffffea00ffffea00ffffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffffff00ffffff00ffea00ffffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea00ffffffff00ffffff00ffea0000ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea0000ffffff00ffffff00ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffffff00ffffff00ffea0000ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffea00ffffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea00ffffea00ffffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffffff00ffea0000ffea0000ffea007fffea0000ffea0000ffffff00ffea003fffea007fffea007fffea007fffea007fffffff00ffea007fffea0000ffea0000ffea0000ffea007fffffff00ffea0000ffea0000ffea003fffea007fffea0000ffffff00ffea0000ffea0000ffea00ffffea0000ffea0000ffffff00ffea00ffffea007fffea007fffea007fffea007fffffff00ffea00bfffea00bfffea0000ffea00bfffea00bfffffff00ffea0000ffea0000ffea00ffffea007fffea0000ffffff00ffea0000ffea0000ffea00ffffea0000ffea0000ffffff00ffea00ffffea007fffea007fffea007fffea003fffffff00ffea0000ffea00bfffea00ffffea00bfffea0000ffffff00ffea0000ffea0000ffea00ffffea0000ffea0000ffffff00ffea0000ffea0000ffea00ffffea0000ffea0000ffffff00ffea00ffffea007fffea007fffea007fffea00ffffffff00ffea0000ffea00bfffea00ffffea00bfffea0000ffffff00ffea0000ffea0000ffea00ffffea0000ffea0000ffffff00ffea0000ffea0000ffea00ffffea0000ffea0000ffffff00ffea00ffffea007fffea007fffea007fffea00ffffffff00ffea00bfffea00bfffea0000ffea00bfffea00bfffffff00ffea003fffea007fffea00ffffea007fffea003fffffff00ffea0000ffea0000ffea00ffffea0000ffea0000ffffff00ffea003fffea007fffea007fffea007fffea003fffffff00ffea007fffea0000ffea0000ffea0000ffea007fffffff00ffea003fffea007fffea00ffffea007fffea003fffffff00ffea007fffea007fffea00ffffea007fffea007fffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffea0000ffea0000ffea00ffffea0000ffea0000ffffff00ffea007fffea007fffea007fffea007fffea007fffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffea0000ffea0000ffea0000ffea0000ffea0000ffffff00ffea0000ffea0000ffea007fffea0000ffea0000ffffff00ffea0000ffea005ffff47f00ffea008fffea007ffff47f3fffea007fffea002ffff47f4fffea0000ffea008ffff47f00ffea0000ffea007ffff47f00ffea00bfffea007ffff47f4fffea005fffea00dffff47f00ffea0000ffea007ffff47f00ffea0000ffea007ffff47f00ffea008fffea007ffff47f4fffea007fffea002ffff47f4fffea005fffea00bffff47f1fffea007fffea009ffff47f3fffea0000ffea0000fff47f00ffea0000ffea0000fff47f00ffea0000ffea005ffff47f00ffea0037ffef3f53ffef3f63ffea007bffef3f13ffef3f43ffea0067ffef3f33ffef3f33ffea002bffef3f2bffef3f4fffec1f49ffec1f4fffef3f34ffec1f4f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &2052438036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1026,145 +1069,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1766036232632245482, guid: 287c682246a4575488a8a491b7a2740c, type: 3}
   m_PrefabInstance: {fileID: 2052438036}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2065445851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2065445852}
-  - component: {fileID: 2065445854}
-  - component: {fileID: 2065445853}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2065445852
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065445851}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1126353926}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25, y: -25}
-  m_SizeDelta: {x: 1000, y: 50}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &2065445853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065445851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'WASD: Move
-
-    Space: Kill yourself (that''s the gimick of this game)
-
-    R:
-    Restart'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &2065445854
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065445851}
-  m_CullTransparentMesh: 0
 --- !u!1839735485 &2459907904073171123
 Tilemap:
   m_ObjectHideFlags: 0
@@ -1288,7 +1192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8037711181618009284, guid: 799003c6b26c5e649befc2921046f506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1369,7 +1273,7 @@ Transform:
   - {fileID: 1644201191}
   - {fileID: 1181476451}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3946277162032767119
 MonoBehaviour:

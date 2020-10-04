@@ -1,5 +1,6 @@
 ﻿#pragma warning disable 649
 using UnityEngine;
+using Ciber_Turtle.Audio;
 
 public class Player : MonoBehaviour
 {
@@ -30,10 +31,12 @@ public class Player : MonoBehaviour
 		Util.TryInstantiate(pfDeathEffect, transform.position, Quaternion.identity);
 		past.bManualDeath = false;
 		FindObjectOfType<Game>().Redo();
+		SFX.current.PlaySound("Die");
 	}
 
 	public void Redo()
 	{
 		Util.TryInstantiate(pfRedoEffect, transform.position, Quaternion.identity);
+		SFX.current.PlaySound("Redo");
 	}
 }

@@ -1,6 +1,7 @@
 ﻿#pragma warning disable 649
 using UnityEngine;
 using Ciber_Turtle.Input;
+using Ciber_Turtle.Audio;
 
 [AddComponentMenu("Game/Player/Player Movement")]
 public class PlayerMovement : MonoBehaviour
@@ -56,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
 		anim = GetComponent<Animator>();
 
 		onLand.AddListener(() => Util.TryInstantiate(pfLandPuff, tPuffPos.position, Quaternion.identity));
+		onLand.AddListener(() => SFX.current.PlaySound("Land"));
 	}
 
 	private void Update()
@@ -116,6 +118,7 @@ public class PlayerMovement : MonoBehaviour
 				fJumpPressMem = 0;
 				rb.velocity = new Vector2(rb.velocity.x, fJumpHeight);
 				Util.TryInstantiate(pfJumpPuff, tPuffPos.position, Quaternion.identity);
+				SFX.current.PlaySound("Jump");
 			}
 
 			if (bIsJumpUp && !bGrounded && rb.velocity.y > 0)
