@@ -63,3 +63,6 @@ TagManager:
   - name: Editor
     uniqueID: 911808277
     locked: 0
+  - name: UI
+    uniqueID: 3462427149
+    locked: 0

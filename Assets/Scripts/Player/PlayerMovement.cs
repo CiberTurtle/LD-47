@@ -26,10 +26,17 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField] LayerMask lmGround;
 	[SerializeField] Transform tGroundCheck;
 	public UnityEngine.Events.UnityEvent onLand = new UnityEngine.Events.UnityEvent();
+	[Space]
+	[SerializeField] float fTimeBetweenPuffs;
+	[SerializeField] Transform tPuffPos;
+	[SerializeField] GameObject pfWalkPuff;
+	[SerializeField] GameObject pfJumpPuff;
+	[SerializeField] GameObject pfLandPuff;
 
 	[HideInInspector] public bool bEnableMovement = true;
 	[HideInInspector] public bool bEnableFlip = true;
 	[HideInInspector] public bool bGrounded;
+	[HideInInspector] public bool bWasGrounded;
 	bool bIsJumpDown;
 	bool bIsJumpUp;
 	float fMoveInput;
@@ -38,11 +45,17 @@ public class PlayerMovement : MonoBehaviour
 	float fHVel;
 	Vector2 v2ExtraVel;
 
+	float fTimeScinceLastPuff;
+	Animator anim;
+
 	Rigidbody2D rb;
 
 	private void Awake()
 	{
 		rb = GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator>();
+
+		onLand.AddListener(() => Util.TryInstantiate(pfLandPuff, tPuffPos.position, Quaternion.identity));
 	}
 
 	private void Update()
@@ -72,6 +85,8 @@ public class PlayerMovement : MonoBehaviour
 	private void FixedUpdate()
 	{
 		bGrounded = Physics2D.OverlapBox(tGroundCheck.position, tGroundCheck.localScale, tGroundCheck.eulerAngles.z, lmGround);
+		if (bWasGrounded != bGrounded)
+			onLand.Invoke();
 
 		if (bEnableMovement)
 		{
@@ -100,6 +115,7 @@ public class PlayerMovement : MonoBehaviour
 				fGroundedPressMem = 0;
 				fJumpPressMem = 0;
 				rb.velocity = new Vector2(rb.velocity.x, fJumpHeight);
+				Util.TryInstantiate(pfJumpPuff, tPuffPos.position, Quaternion.identity);
 			}
 
 			if (bIsJumpUp && !bGrounded && rb.velocity.y > 0)
@@ -119,13 +135,29 @@ public class PlayerMovement : MonoBehaviour
 			}
 
 			if (Mathf.Abs(fMoveInput) > 0.1f)
+			{
 				fHVel = Mathf.Clamp(fHVel + fMoveInput * fMoveSpeed * Time.fixedDeltaTime * 10, -fMaxMoveSpeed, fMaxMoveSpeed);
+			}
 			else
 			{
 				if (bGrounded)
 					fHVel *= fGroundDeceleration * Time.fixedDeltaTime * 50;
 				else
 					fHVel *= fAirDeceleration * Time.fixedDeltaTime * 50;
+			}
+
+			if (Mathf.Abs(rb.velocity.x) > 0.1f && bGrounded)
+			{
+				fTimeScinceLastPuff += Time.fixedDeltaTime;
+				if (fTimeScinceLastPuff > fTimeBetweenPuffs)
+				{
+					Util.TryInstantiate(pfWalkPuff, tPuffPos.position, Quaternion.identity).transform.localScale = transform.localScale;
+					fTimeScinceLastPuff = 0;
+				}
+			}
+			else
+			{
+				fTimeScinceLastPuff = 0;
 			}
 
 			// bool bGrabWallSide = Physics2D.OverlapBox(tWallGrabCheck.position, tWallGrabCheck.localScale, tWallGrabCheck.eulerAngles.z, lmGround);
@@ -146,6 +178,11 @@ public class PlayerMovement : MonoBehaviour
 		}
 
 		rb.velocity = new Vector2(fHVel, Mathf.Clamp(rb.velocity.y, fMaxFallVel, float.MaxValue)) + v2ExtraVel;
+
+		anim.SetFloat("X", Mathf.Round(rb.velocity.x));
+		anim.SetFloat("Y", Mathf.Round(rb.velocity.y));
+
+		bWasGrounded = bGrounded;
 	}
 
 	public void SetVelocity(Vector2 v2Velocity)

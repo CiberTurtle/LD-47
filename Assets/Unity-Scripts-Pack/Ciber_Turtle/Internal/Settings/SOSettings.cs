@@ -7,13 +7,15 @@ namespace Ciber_Turtle.Internal
 	// [CreateAssetMenu(fileName = "Ciber_Turtle Settings", menuName = "Tools/Ciber_Turtle Settings", order = 0)]
 	public class SOSettings : ScriptableObject
 	{
+#if UNITY_EDITOR
 		[Header("UI . Text . Bitmap")]
 		[Header("UI . Text")]
 		[Header("UI")]
+#endif
 		public SOUIBitTextFont defaultBitmapFont;
+#if UNITY_EDITOR
 		[Header("Tools . Open In Code")]
 		[Header("Tools")]
-#if UNITY_EDITOR
 		public string openInCodeArgs;
 #endif
 
