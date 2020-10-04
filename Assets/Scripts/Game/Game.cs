@@ -20,14 +20,18 @@ public class Game : MonoBehaviour
 	[SerializeField] LayerMask lmPlayer;
 	[SerializeField] GameObject goDevUI;
 	[Space]
+	[SerializeField] GameObject goPauseMenu;
+	[Space]
 	[SerializeField] float fRestartTime;
 	[SerializeField] UIProgressBar barRestart;
-	[SerializeField] UIBitText goRestartText;
+	[SerializeField] UIBitText textRestartText;
+	[SerializeField] GameObject goShadow;
 	[Space]
 	[SerializeField] float fCamSmoothing;
 	[SerializeField] float fCamAmp;
 	[SerializeField] Transform cam;
 
+	bool IS_PAUSED = false;
 	float fTimeOnExit;
 	float fTimeRestarted;
 
@@ -38,9 +42,8 @@ public class Game : MonoBehaviour
 
 	void LateUpdate()
 	{
-		if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
-		else if (Input.GetKeyDown(KeyCode.F3)) goDevUI.SetActive(!goDevUI.activeInHierarchy);
-
+		if (Input.GetKeyDown(KeyCode.Escape)) IS_PAUSED = !IS_PAUSED;
+		if (Input.GetKeyDown(KeyCode.F3)) goDevUI.SetActive(!goDevUI.activeInHierarchy);
 		if (Input.GetKey(KeyCode.R))
 		{
 			fTimeRestarted += Time.deltaTime;
@@ -51,13 +54,17 @@ public class Game : MonoBehaviour
 		}
 		else
 			fTimeRestarted = 0;
-
 		if (Input.GetKeyDown(KeyCode.Space))
 			Redo();
 
+		goPauseMenu.SetActive(IS_PAUSED);
+		Time.timeScale = IS_PAUSED ? 0 : 1;
+		Ciber_Turtle.Input.BasicInput.enabled = !IS_PAUSED;
+
 		barRestart.maxValue = fRestartTime;
 		barRestart.value = fTimeRestarted;
-		goRestartText.color = fTimeRestarted == 0 ? Color.clear : Color.red;
+		textRestartText.color = fTimeRestarted == 0 ? Color.clear : Color.red;
+		goShadow.SetActive(fTimeRestarted != 0);
 
 		if (Physics2D.OverlapBox(tEndPoint.position, tEndPoint.localScale, 0, lmPlayer)) fTimeOnExit += Time.deltaTime; else fTimeOnExit = 0;
 		if (fTimeOnExit > fTimeToExit) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
