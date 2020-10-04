@@ -17,12 +17,16 @@ public class Spike : MonoBehaviour, IToggleable
 		rend = GetComponent<SpriteRenderer>();
 	}
 
+	void Update()
+	{
+		if (Physics2D.OverlapBox(transform.position + new Vector3(0, fPos, 0), new Vector2(rend.size.x + fSize.x, fSize.y), transform.eulerAngles.z, lmPlayer)) FindObjectOfType<Player>().Die();
+	}
+
 	public void SetActive(bool state)
 	{
 		if (state)
 		{
 			rend.sprite = spUp;
-			if (Physics2D.OverlapBox(transform.position + new Vector3(0, fPos, 0), new Vector2(rend.size.x + fSize.x, fSize.y), 0, lmPlayer)) FindObjectOfType<Player>().Die();
 		}
 		else
 		{

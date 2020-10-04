@@ -292,7 +292,7 @@ MonoBehaviour:
   fAirDeceleration: 0.75
   fGroundKBDeceleration: 0.75
   fAirKBDeceleration: 0.9
-  fJumpHeight: 13.5
+  fJumpHeight: 12.5
   fMaxFallVel: -50
   fFallGravity: 1
   fFallSpeed: 0
