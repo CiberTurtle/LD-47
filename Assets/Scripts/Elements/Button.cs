@@ -1,5 +1,6 @@
 ﻿#pragma warning disable 649
 using UnityEngine;
+using Ciber_Turtle.Audio;
 
 public class Button : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class Button : MonoBehaviour
 	[SerializeField] LineRenderer lrLine;
 	[SerializeField] Color cOffColor;
 	[SerializeField] Color cOnColor;
+
+	[SerializeField] bool wasActivated;
 
 	SpriteRenderer sr;
 	IToggleable toggle;
@@ -30,6 +33,7 @@ public class Button : MonoBehaviour
 	void Update()
 	{
 		bool isPressed = Physics2D.OverlapBox(tActivationArea.position, tActivationArea.localScale, 0, lmPlayer);
+		if (isPressed != wasActivated) SFX.current.transform.GetChild(0).GetComponent<AudioSource>().Play();
 
 		lrLine.startColor = isPressed == true ? cOnColor : cOffColor;
 		lrLine.endColor = isPressed == true ? cOnColor : cOffColor;
@@ -44,6 +48,8 @@ public class Button : MonoBehaviour
 			toggle.SetActive(Physics2D.OverlapBox(tActivationArea.position, tActivationArea.localScale, 0, lmPlayer));
 			sr.sprite = isPressed ? spDown : spUp;
 		}
+
+		wasActivated = isPressed;
 	}
 
 	void OnDrawGizmos()

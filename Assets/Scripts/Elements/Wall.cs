@@ -29,13 +29,13 @@ public class Wall : MonoBehaviour, IToggleable
 		bLastState = state;
 	}
 
-	void OnDrawGizmos()
+	void OnDrawGizmosSelected()
 	{
 		if (srOutline && srWall)
 		{
 			srOutline.size = srWall.size;
 
-			Gizmos.color = new Color(1, 0, 0, 0.25f);
+			Gizmos.color = new Color(1, 0, 0, 0.1f);
 			Gizmos.DrawWireCube(transform.position, srWall.size - Util.ToVector2(fGraceSize));
 		}
 	}
