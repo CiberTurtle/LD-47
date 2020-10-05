@@ -316,6 +316,7 @@ MonoBehaviour:
   pfWalkPuff: {fileID: 6209048462492559036, guid: d6652b60ecdc7d74bbd3696bf7245b4a, type: 3}
   pfJumpPuff: {fileID: 6209048462492559036, guid: 573b1fd9924ac2e46adf6046003e154f, type: 3}
   pfLandPuff: {fileID: 6209048462492559036, guid: a053b045779e3ee4e89469a5c18c0098, type: 3}
+  fTimeBtPuffs: 0.25
   bEnableMovement: 1
   bEnableFlip: 1
   bGrounded: 0

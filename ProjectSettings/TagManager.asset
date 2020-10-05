@@ -17,7 +17,7 @@ TagManager:
   - Ground
   - Past Player
   - Player
-  - 
+  - Effects
   - 
   - 
   - 
@@ -42,6 +42,9 @@ TagManager:
   - name: Background
     uniqueID: 4136063089
     locked: 0
+  - name: Effects/BG
+    uniqueID: 181874851
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -59,6 +62,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2228408907
+    locked: 0
+  - name: Effect/FG
+    uniqueID: 3671298561
     locked: 0
   - name: Editor
     uniqueID: 911808277

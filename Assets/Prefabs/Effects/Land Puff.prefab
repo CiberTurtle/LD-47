@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7724878395303825691}
   - component: {fileID: 7597946046033450334}
   - component: {fileID: 1273060931517492555}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Jump Puff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4890,7 +4890,7 @@ GameObject:
   - component: {fileID: 6209048462492559033}
   - component: {fileID: 6209048462492559038}
   - component: {fileID: 6209048462492559039}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Land Puff
   m_TagString: Untagged
   m_Icon: {fileID: 0}

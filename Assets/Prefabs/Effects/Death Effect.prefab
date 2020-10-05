@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1000667138139103884}
   - component: {fileID: 1000667138139103887}
   - component: {fileID: 1000667138139103886}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Death Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}

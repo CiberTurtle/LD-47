@@ -33,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField] GameObject pfWalkPuff;
 	[SerializeField] GameObject pfJumpPuff;
 	[SerializeField] GameObject pfLandPuff;
+	[SerializeField] float fTimeBtPuffs;
 
 	[HideInInspector] public bool bEnableMovement = true;
 	[HideInInspector] public bool bEnableFlip = true;
@@ -45,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
 	float fGroundedPressMem;
 	float fHVel;
 	Vector2 v2ExtraVel;
+	float lastPuffSpawn;
 
 	float fTimeScinceLastPuff;
 	Animator anim;
@@ -56,12 +58,14 @@ public class PlayerMovement : MonoBehaviour
 		rb = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 
-		onLand.AddListener(() => Util.TryInstantiate(pfLandPuff, tPuffPos.position, Quaternion.identity));
+		onLand.AddListener(() => { if (fTimeScinceLastPuff > fTimeBetweenPuffs) { Util.TryInstantiate(pfLandPuff, tPuffPos.position, Quaternion.identity); fTimeScinceLastPuff = 0; } });
 		onLand.AddListener(() => SFX.current.PlaySound("Land"));
 	}
 
 	private void Update()
 	{
+		fTimeScinceLastPuff += Time.deltaTime;
+
 		fMoveInput = BasicInput.GetAxisRaw("X");
 		if (BasicInput.GetButtonDown("Jump"))
 		{
