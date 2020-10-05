@@ -174,7 +174,7 @@ TrailRenderer:
   m_SortingLayerID: -1905055709
   m_SortingLayer: 4
   m_SortingOrder: -1
-  m_Time: 1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -5423,7 +5423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7491299268208700342, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
       propertyPath: m_text
-      value: 
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 7491299268208700343, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5479,7 +5479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7491299268208700343, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7491299268208700343, guid: c0354e48a7eb8b74eb2ca052314265de, type: 3}
       propertyPath: m_SizeDelta.y
