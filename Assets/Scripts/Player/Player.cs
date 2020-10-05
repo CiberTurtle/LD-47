@@ -4,7 +4,7 @@ using Ciber_Turtle.Audio;
 
 public class Player : MonoBehaviour
 {
-	public Past past = new Past();
+	public Past past = new Past(1);
 	[SerializeField] GameObject pfDeathEffect;
 	[SerializeField] GameObject pfRedoEffect;
 	[SerializeField] SpriteRenderer srCosmetic;

@@ -32,7 +32,7 @@ public class PlayerGhost : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		if (index < (past.bManualDeath ? past.v2History.Count : past.v2History.Count - 1))
+		if (index < (past.bManualDeath ? past.v2History.Count : past.v2History.Count))
 		{
 			rb.position = past.v2History[index];
 

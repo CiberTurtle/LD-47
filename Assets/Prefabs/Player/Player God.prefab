@@ -129,7 +129,7 @@ Transform:
   m_GameObject: {fileID: 1372817868173135979}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 9059285355719055924}
   m_RootOrder: 3
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c1660b3787332d4f8cfd3023f86d4e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_text: Hello There
+  m_text: ' '
   m_color: {r: 1, g: 0.9166666, b: 0, a: 1}
   m_uiDrawMode: 2
   m_autoSize: 1
@@ -195,14 +195,14 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -832540147
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 1000
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.1, y: 0.16}
+  m_Size: {x: 1.32, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0

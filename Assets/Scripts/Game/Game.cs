@@ -15,12 +15,15 @@ public class Game : MonoBehaviour
 	[Space]
 	[SerializeField] GameObject pfPlayer;
 	[SerializeField] GameObject pfGhostPlayer;
+	[SerializeField] Sprite spClosedDoor;
+	[SerializeField] Sprite spOpenDoor;
 	[Space]
 	[SerializeField] Transform tSpawnPoint;
 	[SerializeField] Transform tEndPoint;
 	[SerializeField] float fTimeToExit;
 	[SerializeField] LayerMask lmPlayer;
 	[SerializeField] GameObject goDevUI;
+	[SerializeField] UIBitText textTitle;
 	[Space]
 	[SerializeField] GameObject goPauseMenu;
 	[Space]
@@ -42,6 +45,15 @@ public class Game : MonoBehaviour
 	void Awake()
 	{
 		activePlayer = Instantiate(pfPlayer, tSpawnPoint.position, Quaternion.identity).GetComponent<Player>();
+		if (PlayerPrefs.GetString("game.beat", "false") == "true" && SceneManager.GetActiveScene().name != "The End")
+			activePlayer.past.iCosmeticIndex = 0;
+		else
+			activePlayer.past.iCosmeticIndex = Mathf.RoundToInt(Random.Range(1, spCosmetics.Length));
+	}
+
+	void Start()
+	{
+		textTitle.text = SceneManager.GetActiveScene().name;
 	}
 
 	void LateUpdate()
@@ -61,6 +73,12 @@ public class Game : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.Space))
 			Redo();
 
+		if (Input.GetKeyDown(KeyCode.C) && Random.value > 0.95f)
+		{
+			PlayerPrefs.DeleteKey("game.beat");
+			Debug.Log("Clear");
+		}
+
 		goPauseMenu.SetActive(IS_PAUSED);
 		Time.timeScale = IS_PAUSED ? 0 : 1;
 		Ciber_Turtle.Input.BasicInput.enabled = !IS_PAUSED;
@@ -70,7 +88,17 @@ public class Game : MonoBehaviour
 		textRestartText.color = fTimeRestarted == 0 ? Color.clear : Color.red;
 		goShadow.SetActive(fTimeRestarted != 0);
 
-		if (Physics2D.OverlapBox(tEndPoint.position, tEndPoint.localScale, 0, lmPlayer)) fTimeOnExit += Time.deltaTime; else fTimeOnExit = 0;
+		if (activePlayer.GetComponent<PlayerMovement>().bGrounded && Physics2D.OverlapBox(tEndPoint.position, tEndPoint.localScale, 0, lmPlayer))
+		{
+			fTimeOnExit += Time.deltaTime;
+			tEndPoint.GetComponent<SpriteRenderer>().sprite = spOpenDoor;
+		}
+		else
+		{
+			fTimeOnExit = 0;
+			tEndPoint.GetComponent<SpriteRenderer>().sprite = spClosedDoor;
+		}
+
 		if (fTimeOnExit > fTimeToExit) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 		cam.position = Vector2.Lerp(cam.position, activePlayer.transform.position * fCamAmp, fCamSmoothing);
@@ -84,7 +112,10 @@ public class Game : MonoBehaviour
 		activePlayer.Redo();
 		Destroy(activePlayer.gameObject);
 		activePlayer = Instantiate(pfPlayer, tSpawnPoint.position, Quaternion.identity).GetComponent<Player>();
-		activePlayer.past.iCosmeticIndex = Mathf.RoundToInt(Random.Range(0, spCosmetics.Length));
+		if (PlayerPrefs.GetString("game.beat", "false") == "true" && SceneManager.GetActiveScene().name != "The End")
+			activePlayer.past.iCosmeticIndex = 0;
+		else
+			activePlayer.past.iCosmeticIndex = Mathf.RoundToInt(Random.Range(1, spCosmetics.Length));
 
 		ghostPlayers.ForEach(x => Destroy(x.gameObject));
 		ghostPlayers = new List<PlayerGhost>();

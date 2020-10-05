@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/1-9 Maze.unity
     guid: 938abb49679227240a861294513515ef
   - enabled: 1
-    path: Assets/Scenes/2-1 Spikes.unity
+    path: Assets/Scenes/2-1 Back and Forth.unity
     guid: 56b4613817616694f9ebf0a7f41e1cd8
   - enabled: 1
     path: Assets/Scenes/2-2 Spiky Towers.unity
@@ -45,10 +45,10 @@ EditorBuildSettings:
     path: Assets/Scenes/2-3 Off and On.unity
     guid: 9ff9ffc46a8e64b43bb114fffe310abb
   - enabled: 1
-    path: Assets/Scenes/2-4 Give it a Think.unity
+    path: Assets/Scenes/2-4 Control Panel.unity
     guid: de1415d87bc3c03488afb61ba0955ca5
   - enabled: 1
-    path: Assets/Scenes/2-5 The Past Matters.unity
+    path: Assets/Scenes/2-5 Foward Thinking.unity
     guid: 12d07be3966be084894b2bb45ee5ea9a
   - enabled: 1
     path: Assets/Scenes/2-6 Uhh....unity
@@ -56,4 +56,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/The End.unity
     guid: 2df475c8c76a7784688d4cdca19aae41
+  - enabled: 0
+    path: Assets/Scenes/Pic Room.unity
+    guid: ff8f37fbb88aa9f4a9df8bf283f7dd39
   m_configObjects: {}
